@@ -1,0 +1,1 @@
+ALTER TABLE user MODIFY mobile VARCHAR(11);
