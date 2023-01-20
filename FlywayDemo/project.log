@@ -1,0 +1,102 @@
+2023-01-20 18:49:11.632  INFO 9716 --- [main] com.example.FlywayDemoApplication        : Starting FlywayDemoApplication using Java 11.0.12 on NEOLAP000002510 with PID 9716 (C:\Users\user\Desktop\PranitPOC\FlywayDemo\target\classes started by user in C:\Users\user\Desktop\PranitPOC\FlywayDemo)
+2023-01-20 18:49:11.668  INFO 9716 --- [main] com.example.FlywayDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-01-20 18:49:13.230  INFO 9716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-20 18:49:13.356  INFO 9716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interfaces.
+2023-01-20 18:49:15.003  INFO 9716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-20 18:49:15.024  INFO 9716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 18:49:15.025  INFO 9716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-20 18:49:15.328  INFO 9716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 18:49:15.329  INFO 9716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3533 ms
+2023-01-20 18:49:15.695  INFO 9716 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2023-01-20 18:49:15.696  INFO 9716 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-01-20 18:49:15.697  INFO 9716 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2023-01-20 18:49:16.524  INFO 9716 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/pranitpoc (MySQL 8.0)
+2023-01-20 18:49:16.704  INFO 9716 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 11 migrations (execution time 00:00.106s)
+2023-01-20 18:49:16.733  INFO 9716 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `pranitpoc`: 2023.01.20.04.01.02
+2023-01-20 18:49:16.734  WARN 9716 --- [main] o.f.core.internal.command.DbMigrate      : outOfOrder mode is active. Migration of schema `pranitpoc` may not be reproducible.
+2023-01-20 18:49:16.737  INFO 9716 --- [main] o.f.core.internal.command.DbMigrate      : Schema `pranitpoc` is up to date. No migration necessary.
+2023-01-20 18:49:17.014  INFO 9716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 18:49:17.150  INFO 9716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-20 18:49:17.556  INFO 9716 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 18:49:17.839  INFO 9716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 18:49:17.923  INFO 9716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 18:49:18.005  INFO 9716 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-20 18:49:19.656  INFO 9716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 18:49:19.678  INFO 9716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 18:49:20.566  WARN 9716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-20 18:49:21.274  INFO 9716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-20 18:49:21.293  INFO 9716 --- [main] com.example.FlywayDemoApplication        : Started FlywayDemoApplication in 10.89 seconds (JVM running for 12.283)
+2023-01-20 18:49:21.300  INFO 9716 --- [main] com.example.controller.UserController    : This is info message
+2023-01-20 18:49:21.300 ERROR 9716 --- [main] com.example.controller.UserController    : This is a error message
+2023-01-20 18:49:21.301  WARN 9716 --- [main] com.example.controller.UserController    : this is a warn message
+2023-01-20 19:06:43.400  INFO 9716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 19:06:43.404  INFO 9716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 19:06:43.438  INFO 9716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 19:06:52.289  INFO 1356 --- [main] com.example.FlywayDemoApplication        : Starting FlywayDemoApplication using Java 11.0.12 on NEOLAP000002510 with PID 1356 (C:\Users\user\Desktop\PranitPOC\FlywayDemo\target\classes started by user in C:\Users\user\Desktop\PranitPOC\FlywayDemo)
+2023-01-20 19:06:52.295  INFO 1356 --- [main] com.example.FlywayDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-01-20 19:06:53.901  INFO 1356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-20 19:06:54.030  INFO 1356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+2023-01-20 19:06:55.572  INFO 1356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-20 19:06:55.592  INFO 1356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 19:06:55.592  INFO 1356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-20 19:06:55.883  INFO 1356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 19:06:55.884  INFO 1356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3432 ms
+2023-01-20 19:06:56.254  INFO 1356 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2023-01-20 19:06:56.255  INFO 1356 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-01-20 19:06:56.256  INFO 1356 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2023-01-20 19:06:57.087  INFO 1356 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:mysql://localhost:3306/pranitpoc (MySQL 8.0)
+2023-01-20 19:06:57.196  INFO 1356 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 11 migrations (execution time 00:00.065s)
+2023-01-20 19:06:57.219  INFO 1356 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `pranitpoc`: 2023.01.20.04.01.02
+2023-01-20 19:06:57.220  WARN 1356 --- [main] o.f.core.internal.command.DbMigrate      : outOfOrder mode is active. Migration of schema `pranitpoc` may not be reproducible.
+2023-01-20 19:06:57.222  INFO 1356 --- [main] o.f.core.internal.command.DbMigrate      : Schema `pranitpoc` is up to date. No migration necessary.
+2023-01-20 19:06:57.507  INFO 1356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 19:06:57.668  INFO 1356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-20 19:06:58.080  INFO 1356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 19:06:58.292  INFO 1356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 19:06:58.390  INFO 1356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 19:06:58.451  INFO 1356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-20 19:07:00.295  INFO 1356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 19:07:00.318  INFO 1356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 19:07:01.326  WARN 1356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-20 19:07:02.301  INFO 1356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-20 19:07:02.320  INFO 1356 --- [main] com.example.FlywayDemoApplication        : Started FlywayDemoApplication in 11.272 seconds (JVM running for 12.482)
+2023-01-20 19:07:02.328  INFO 1356 --- [main] com.example.controller.UserController    : This is info message
+2023-01-20 19:07:02.329 ERROR 1356 --- [main] com.example.controller.UserController    : This is a error message
+2023-01-20 19:07:02.330  WARN 1356 --- [main] com.example.controller.UserController    : this is a warn message
+2023-01-20 19:10:50.161  INFO 1356 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 19:10:50.165  INFO 1356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 19:10:50.191  INFO 1356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 19:11:02,925 INFO [main] com.example.FlywayDemoApplication : Starting FlywayDemoApplication using Java 11.0.12 on NEOLAP000002510 with PID 11160 (C:\Users\user\Desktop\PranitPOC\FlywayDemo\target\classes started by user in C:\Users\user\Desktop\PranitPOC\FlywayDemo)
+2023-01-20 19:11:02,932 INFO [main] com.example.FlywayDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2023-01-20 19:11:04,966 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-20 19:11:05,130 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 1 JPA repository interfaces.
+2023-01-20 19:11:07,523 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-01-20 19:11:07,555 INFO [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-01-20 19:11:07,556 INFO [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-20 19:11:08,193 INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-01-20 19:11:08,210 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5081 ms
+2023-01-20 19:11:09,294 INFO [main] org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 8.5.13 by Redgate
+2023-01-20 19:11:09,295 INFO [main] org.flywaydb.core.internal.license.VersionPrinter : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-01-20 19:11:09,295 INFO [main] org.flywaydb.core.internal.license.VersionPrinter : 
+2023-01-20 19:11:10,787 INFO [main] org.flywaydb.core.internal.database.base.BaseDatabaseType : Database: jdbc:mysql://localhost:3306/pranitpoc (MySQL 8.0)
+2023-01-20 19:11:10,958 INFO [main] org.flywaydb.core.internal.command.DbValidate : Successfully validated 11 migrations (execution time 00:00.102s)
+2023-01-20 19:11:10,989 INFO [main] org.flywaydb.core.internal.command.DbMigrate : Current version of schema `pranitpoc`: 2023.01.20.04.01.02
+2023-01-20 19:11:10,991 WARN [main] org.flywaydb.core.internal.command.DbMigrate : outOfOrder mode is active. Migration of schema `pranitpoc` may not be reproducible.
+2023-01-20 19:11:10,994 INFO [main] org.flywaydb.core.internal.command.DbMigrate : Schema `pranitpoc` is up to date. No migration necessary.
+2023-01-20 19:11:11,438 INFO [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 19:11:11,627 INFO [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-20 19:11:12,328 INFO [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 19:11:12,959 INFO [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2023-01-20 19:11:13,079 INFO [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2023-01-20 19:11:13,152 INFO [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-20 19:11:15,994 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 19:11:16,037 INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 19:11:18,060 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-20 19:11:19,790 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-20 19:11:19,823 INFO [main] com.example.FlywayDemoApplication : Started FlywayDemoApplication in 18.134 seconds (JVM running for 19.336)
+2023-01-20 19:11:19,830 INFO [main] com.example.controller.UserController : This is info message
+2023-01-20 19:11:19,831 ERROR[main] com.example.controller.UserController : This is a error message
+2023-01-20 19:11:19,832 WARN [main] com.example.controller.UserController : this is a warn message
+2023-01-20 19:17:38,673 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-20 19:17:38,686 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2023-01-20 19:17:38,726 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.

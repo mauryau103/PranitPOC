@@ -20,3 +20,12 @@ spring:
     schemas: pranitpoc
     baseline-on-migrate: true
     out-of-order: true
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: C:\Users\user\Desktop\PranitPOC\FlywayDemo\project.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level[%thread] %logger : %msg%n"
